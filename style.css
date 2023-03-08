@@ -1,0 +1,37 @@
+/* VERTICAL BAR */
+
+body {
+    background: #00416A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.icon-bar {
+    width: 60px; /* Set a specific width */
+    background-color: #f7f0f0; /* Dark-grey background */
+    border-radius: 15px;
+    border: black 1px solid;
+}
+
+.icon-bar a{
+    display: block; /* Make the links appear below each other instead of side-by-side */
+    text-align: center; /* Center-align text */
+    padding: 16px; /* Add some padding */
+    transition: all 0.3s ease; /*Add transition for hover effects */
+    color: rgb(26, 25, 25); /* White text color */
+    font-size: 20px; /* Increased font-size */
+    border-radius: 15px;
+}
+
+.icon-bar a:hover {
+    background-color: #f3dcdc; /* Add a hover color */
+}
+
+.active {
+    background-color: rgb(207, 207, 245); /* Add an active/current color */
+}
+
+
+
